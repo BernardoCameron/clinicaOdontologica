@@ -1,0 +1,82 @@
+[2023-11-03 22:05:18] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:05:18] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:10:32] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:10:32] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:11:17] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:11:17] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:13:59] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-03 22:15:26] [ WARN ] [BD:31] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/DH/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/DH/C21023ClinicaOdontologica.mv.db" [90048-224]
+[2023-11-03 22:16:12] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:17:35] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:18:38] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-03 22:18:55] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:18:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-03 22:19:15] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email ignacio@gmail.com
+[2023-11-03 22:19:15] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-07 19:56:01] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 19:59:33] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-07 20:02:18] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 30
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:06:46] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-07 20:07:20] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-07 20:07:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 20:07:36] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:07:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 21:58:54] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-07 22:01:23] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JorgitoApellido: Fuentes Bazan Matricula :  MP66
+[2023-11-07 22:01:23] [ ERROR] [OdontologoDAOH2:34] Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,[*]) VALUES(?,?,?)"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,[*]) VALUES(?,?,?)"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,) VALUES(?,?,?) [42001-214]
+[2023-11-07 22:03:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-07 22:03:33] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JorgitoApellido: Fuentes Bazan Matricula :  MP66
+[2023-11-10 19:41:46] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:56:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:57:00] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de : guardado odontologo:Jorge AgustinApellido: Pereyra Matricula :  123
+[2023-11-10 22:23:11] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:25:28] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:25:50] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:26:06] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-10 22:26:13] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:26:20] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:26:22] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-10 22:26:29] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:27:26] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-10 22:32:43] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-10 22:34:47] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:35:28] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:35:30] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 2
+[2023-11-10 22:35:51] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID null
+[2023-11-10 22:35:51] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-10 22:35:51] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:39:00] [ INFO ] [BD:32] datos cargados con exito
+[2023-11-10 22:39:19] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:39:22] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-10 22:39:34] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:39:35] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 3
+[2023-11-10 22:39:35] [ INFO ] [OdontologoDAOH2:98] iniciando las operaciones de : actualizar un odontologo Elizabeth
+[2023-11-10 22:42:56] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:42:56] [ ERROR] [OdontologoDAOH2:140] La base de datos puede que ya esté siendo utilizada: "C:/Users/DH/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/DH/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-10 22:42:59] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:42:59] [ ERROR] [OdontologoDAOH2:140] La base de datos puede que ya esté siendo utilizada: "C:/Users/DH/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/DH/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-10 22:43:09] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:43:09] [ ERROR] [OdontologoDAOH2:140] La base de datos puede que ya esté siendo utilizada: "C:/Users/DH/C21023ClinicaOdontologica.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/DH/C21023ClinicaOdontologica.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-11-10 22:43:17] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:45:17] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-10 22:45:28] [ INFO ] [OdontologoDAOH2:48] iniciando las operaciones de : buscado por ID 1
+[2023-11-10 22:45:29] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:45:29] [ INFO ] [OdontologoDAOH2:98] iniciando las operaciones de : actualizar un odontologo Fabricio
+[2023-11-10 22:45:40] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:45:59] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-11-10 22:45:59] [ INFO ] [OdontologoDAOH2:123] iniciando las operaciones de : Buscado de todos los odontologos 
+[2023-12-06 05:33:19] [ INFO ] [OdontologoController:33] Odontologo registrado
